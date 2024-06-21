@@ -1,0 +1,58 @@
+.appointement-status-tag {
+  display: inline-block;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 4px 8px;
+}
+
+.variant-big {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: normal;
+  padding: 4px 8px;
+  line-height: 19.07px;
+  letter-spacing: -0.02em;
+}
+
+.variant-default {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16.34px;
+}
+
+.status-confirmed {
+  background-color: #daf6e9;
+  color: #29a36a;
+}
+
+.status-pending {
+  background-color: #fdf2f2;
+  color: #e15151;
+}
+
+.status-available {
+  background-color: #daebfb;
+  color: #1985e8;
+}
+
+.status-unavailable,
+.status-cancelled {
+  background-color: #f4f7fb;
+  color: #728ea7;
+}
+
+.status-passed {
+  background-color: #dee8f2;
+  color: #728ea7;
+}
+
+.status-refused {
+  background-color: #646464;
+  color: white;
+}
+
+.status-cancelled-big {
+  background-color: #fdf2f2;
+  color: #e15151;
+}

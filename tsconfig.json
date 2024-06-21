@@ -21,6 +21,12 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/components/tags/AppointementStatusTag.stories.jsx" // "app/components/buttons/ButtonTest.stories.jsx"
+  ],
   "exclude": ["node_modules"]
 }
