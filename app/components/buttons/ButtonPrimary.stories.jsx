@@ -1,5 +1,4 @@
 import React from "react";
-import { action } from "@storybook/addon-actions";
 import ButtonPrimary from "./ButtonPrimary";
 import { ArrowRight } from "lucide-react";
 
