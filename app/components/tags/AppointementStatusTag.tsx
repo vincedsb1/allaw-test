@@ -54,7 +54,6 @@ const AppointementStatusTag = ({
       : statusLabels[status];
   const variantClass = variantStyles[variant];
 
-  // Définir les styles spécifiques pour le statut "cancelled" avec la variante "bold"
   const specificStyles =
     status === "cancelled" && variant === "big"
       ? "status-cancelled-big"

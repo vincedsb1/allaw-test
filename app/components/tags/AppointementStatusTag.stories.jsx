@@ -1,8 +1,5 @@
 import React from "react";
-import { Meta, Story } from "@storybook/react";
-import AppointementStatusTag, {
-  AppointementStatusTagProps,
-} from "./AppointementStatusTag";
+import AppointementStatusTag from "./AppointementStatusTag";
 
 export default {
   title: "Components/AppointementStatusTag",
